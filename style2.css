@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(229, 229, 229);
+}
+
+header{
+    text-align: center;
+}
+
+article{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    padding: 1em;
+}
+
+input{
+    font-size: 1em;
+    padding: 0.5em;
+    width: 90%;
+    border-radius: 0.3em;
+    transition: ease 0.5s;
+}
+
+input:focus{
+    scale: 110%;
+    box-shadow: 3px 3px 3px gray;
+}
+
+#logoImg:hover{
+    scale: 105%;
+}
+
+#checkBtn{
+    font-size: 1.3em;
+    background-color: hsl(116, 100%, 40%);
+    border: 1px solid black;
+    padding: 0.3em 0.5em;
+    border-radius: 0.5em;
+    transition: 0.3s;
+}
+
+#checkBtn:hover{
+    background-color: hsl(119, 100%, 60%);
+    cursor: pointer;
+    transform: scale(110%);
+}
+
+#checkBtn:active{
+    background-color: white;
+    color: hsl(119, 100%, 60%);
+    transform: scale(90%);
+}
+
+#bodyCard{
+    background-color: white;
+    padding: 3em;
+    border-radius: 1em;
+    background: linear-gradient(0deg, gray, black, gray);
+    box-shadow: 5px 5px 5px gray;
+    width: 30%;
+}
+
+#nextBtn{
+    font-size: 1.3em;
+    background-color: hsl(231, 100%, 40%);
+    border: 1px solid black;
+    padding: 0.3em 0.5em;
+    border-radius: 0.5em;
+    transition: 0.3s;
+    color: white
+}
+
+#nextBtn:hover{
+    background-color: hsl(231, 100%, 60%);
+    cursor: pointer;
+    transform: scale(110%);
+}
+
+#nextBtn:active{
+    background-color: white;
+    color: hsl(231, 100%, 60%);
+    transform: scale(90%);
+}
+
+.correctAnswer{
+    color: hsl(119, 100%, 60%);
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.wrongAnswer{
+    color: hsl(0, 100%, 60%);
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.answerClass{
+    color: white;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.normalImgSize{
+    width: 30%;
+    box-shadow: 3px 3px 3px gray;
+    transition: ease 0.5s;
+    border-radius: 19%;
+}
+
+.bigImgSize{
+    width: 70%;
+     box-shadow: 5px 5px 5px gray;
+}

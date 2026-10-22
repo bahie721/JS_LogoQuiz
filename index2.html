@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Quiz Game</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Logo Quiz Game</h1>
+        <nav> </nav>
+    </header>
+
+    <main>
+        <article>
+            <section onclick="imgSize()">
+                <img id="logoImg" src="" alt="Logo sample">
+            </section>
+
+            <section id="bodyCard">
+                <input id="userGuess" type="text" placeholder="Enter the logo name"> <br>
+                <button id="checkBtn" onclick="check()">Check</button>
+                 <p id="answer"></p>
+            </section>
+
+            <section>
+                <button id="nextBtn" onclick="next()"> Next</button>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
